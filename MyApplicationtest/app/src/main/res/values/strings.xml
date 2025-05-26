@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application.test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checkbox_feminino">Feminino</string>
+
+
+    <!-- Outros strings -->
+
+        <string-array name="tipos_sanguineos">
+            <item>A+</item>
+            <item>A-</item>
+            <item>B+</item>
+            <item>B-</item>
+            <item>AB+</item>
+            <item>AB-</item>
+            <item>O+</item>
+            <item>O-</item>
+        </string-array>
+
+
+</resources>

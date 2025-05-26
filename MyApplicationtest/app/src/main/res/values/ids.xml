@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="checkbox_feminino" type="id">checkbox_feminino</item>
+    <item name="spinner_tipo_sanguineo" type="id" />
+</resources>
