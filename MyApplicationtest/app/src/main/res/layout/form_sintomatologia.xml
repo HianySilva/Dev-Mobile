@@ -7,6 +7,7 @@
     android:background="#FFFFFF">
 
     <!-- HEADER COM BOTÃO VOLTAR, LOGO E TÍTULO -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,8 +46,8 @@
 
     <!-- CONTEÚDO SCROLLÁVEL -->
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="422dp"
+        android:layout_height="660dp">
 
         <LinearLayout
             android:id="@+id/buttonContainer"
@@ -70,108 +71,110 @@
 
             <!-- GridLayout para botões em 2 colunas -->
             <GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
+                android:layout_width="401dp"
+                android:layout_height="319dp"
                 android:alignmentMode="alignMargins"
-                android:useDefaultMargins="true"
-                android:paddingTop="10dp">
+                android:columnCount="2"
+                android:paddingTop="10dp"
+                android:useDefaultMargins="true">
 
                 <Button
                     android:id="@+id/btnRespiratorio"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_air"
                     android:gravity="center_vertical"
                     android:text="Respiratório"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnInfecciosoInflamatorio"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_warning"
                     android:gravity="center_vertical"
                     android:text="Infeccioso e Inflamatório"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnCardiovascular"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_heart"
                     android:gravity="center_vertical"
                     android:text="Cardiovascular"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnGastrointestinal"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_food"
                     android:gravity="center_vertical"
                     android:text="Gastrointestinal"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnNeurologico"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_brain"
                     android:gravity="center_vertical"
                     android:text="Neurológico"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnMusculoEsqueletico"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_musculo"
                     android:gravity="center_vertical"
                     android:text="Músculo-Esquelético"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnHematologico"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="0"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_mental"
                     android:gravity="center_vertical"
                     android:text="Hematológico"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/btnPsiquiatrico"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
                     android:backgroundTint="#D32F2F"
                     android:drawableLeft="@drawable/ic_psicquiatrico"
                     android:gravity="center_vertical"
                     android:text="Psiquiátrico"
-                    android:textColor="@android:color/white"
-                    android:layout_marginBottom="8dp" />
+                    android:textColor="@android:color/white" />
 
             </GridLayout>
 

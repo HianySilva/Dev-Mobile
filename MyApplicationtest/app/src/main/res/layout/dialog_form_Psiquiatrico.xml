@@ -13,13 +13,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Respiratório"
+            android:text="PSIQUIATRICO"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: TOSSE -->
+        <!-- Item: ANSIEDADE -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,19 +29,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Tosse"
+                android:text="Ansiedade"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/rgTosse"
+                android:id="@+id/rgAnsiedade"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbTosseSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbTosseNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbAnsiedadeSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbAnsiedadeNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Falta de Ar -->
+        <!-- Item: DEPRESSÃO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,19 +51,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Falta de ar"
+                android:text="Depressão"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/Falta"
+                android:id="@+id/Depressão"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbFaltaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbFaltaNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbDepressãoSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbDepressãoNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Dor torácica ao respirar -->
+        <!-- ALUCINAÇÕES -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,19 +73,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Dor torácica ao respirar"
+                android:text="Alucinações"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/rgDorTorácica"
+                android:id="@+id/rgAlucinações"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbDorTorácicaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbDorTorácicaNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbAlucinaçõesSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbAlucinaçõesNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Espirros -->
+        <!-- Item: INSÔNIA -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,39 +95,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Espirros"
+                android:text="Insônia"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/Espirros"
+                android:id="@+id/Insônia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbEspirrosSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbEspirrosNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbInsôniaSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbInsôniaNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: CORIZA-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginBottom="12dp">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="Coriza"
-                android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgCoriza"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbCorizaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbCorizaNao" android:text="Não" />
-            </RadioGroup>
-        </LinearLayout>
+
 
         <!-- OBSERVAÇÕES -->
         <TextView
@@ -172,7 +152,7 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Geral"
+            android:text="Salvar / Psiquiatrico"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:backgroundTint="#0971b2"/>/>

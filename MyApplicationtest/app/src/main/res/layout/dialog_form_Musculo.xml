@@ -13,13 +13,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Respiratório"
+            android:text="MUSCULO ESQUELÉTICO"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: TOSSE -->
+        <!-- Item: DOR ARTICULAR -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,19 +29,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Tosse"
+                android:text="Dor articular"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/rgTosse"
+                android:id="@+id/rgArticular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbTosseSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbTosseNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbArticularSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbArticularNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Falta de Ar -->
+        <!-- Item: RIGIDEZ MUSCULAR-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,19 +51,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Falta de ar"
+                android:text="Rigidez muscular"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/Falta"
+                android:id="@+id/Rigidez"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbFaltaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbFaltaNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbRigidezSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbRigidezNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Dor torácica ao respirar -->
+        <!-- Item: FRAQUEZA MUSCULARr -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,19 +73,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Dor torácica ao respirar"
+                android:text="Fraqueza muscular"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/rgDorTorácica"
+                android:id="@+id/rgFraqueza"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbDorTorácicaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbDorTorácicaNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbFraquezaSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbFraquezaNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Espirros -->
+        <!-- Item: INCHAÇO NAS ARTICULAÇÕES -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,39 +95,18 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Espirros"
+                android:text="Inchaço nas articulações"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/Espirros"
+                android:id="@+id/Inchaço"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbEspirrosSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbEspirrosNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbInchaçoSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbInchaçoNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: CORIZA-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginBottom="12dp">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="Coriza"
-                android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgCoriza"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbCorizaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbCorizaNao" android:text="Não" />
-            </RadioGroup>
-        </LinearLayout>
 
         <!-- OBSERVAÇÕES -->
         <TextView
@@ -172,7 +151,7 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Geral"
+            android:text="Salvar / Musculo"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:backgroundTint="#0971b2"/>/>

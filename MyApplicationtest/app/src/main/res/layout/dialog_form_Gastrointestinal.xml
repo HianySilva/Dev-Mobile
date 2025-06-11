@@ -13,120 +13,179 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Respiratório"
+            android:text="GASTROINTESTINAL"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: TOSSE -->
+        <!-- Exemplo para NÁUSEA -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Tosse"
+                android:text="Náusea"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgTosse"
+
+            <CheckBox
+                android:id="@+id/cbNauseaSim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbTosseSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbTosseNao" android:text="Não" />
-            </RadioGroup>
+                android:text="Sim" />
+
+            <CheckBox
+                android:id="@+id/cbNauseaNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não"
+                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Item: Falta de Ar -->
+        <!-- Exemplo para DIARREIA -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Falta de ar"
+                android:text="Diarreia"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Falta"
+
+            <CheckBox
+                android:id="@+id/cbDiarreiaSim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbFaltaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbFaltaNao" android:text="Não" />
-            </RadioGroup>
+                android:text="Sim" />
+
+            <CheckBox
+                android:id="@+id/cbDiarreiaNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não"
+                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Item: Dor torácica ao respirar -->
+        <!-- Repita o mesmo padrão para os demais sintomas -->
+        <!-- Prisão de ventre -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Dor torácica ao respirar"
+                android:text="Prisão de ventre"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgDorTorácica"
+
+            <CheckBox
+                android:id="@+id/cbPrisaoSim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbDorTorácicaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbDorTorácicaNao" android:text="Não" />
-            </RadioGroup>
+                android:text="Sim" />
+
+            <CheckBox
+                android:id="@+id/cbPrisaoNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não"
+                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Item: Espirros -->
+        <!-- Dor abdominal -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Espirros"
+                android:text="Dor abdominal"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Espirros"
+
+            <CheckBox
+                android:id="@+id/cbDorAbdominalSim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbEspirrosSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbEspirrosNao" android:text="Não" />
-            </RadioGroup>
+                android:text="Sim" />
+
+            <CheckBox
+                android:id="@+id/cbDorAbdominalNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não"
+                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Item: CORIZA-->
+        <!-- Perda de apetite -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Perda de apetite"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cbPerdaApetiteSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sim" />
+
+            <CheckBox
+                android:id="@+id/cbPerdaApetiteNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <!-- Constipação -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Coriza"
+                android:text="Constipação"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgCoriza"
+
+            <CheckBox
+                android:id="@+id/cbConstipacaoSim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbCorizaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbCorizaNao" android:text="Não" />
-            </RadioGroup>
+                android:text="Sim" />
+
+            <CheckBox
+                android:id="@+id/cbConstipacaoNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não"
+                android:layout_marginStart="16dp" />
         </LinearLayout>
 
         <!-- OBSERVAÇÕES -->
@@ -157,7 +216,6 @@
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
 
-
             <TextView
                 android:id="@+id/tvAnexar"
                 android:layout_marginStart="8dp"
@@ -172,9 +230,9 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Geral"
+            android:text="Salvar / Gastrointestinal"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>/>
+            android:backgroundTint="#0971b2" />
     </LinearLayout>
 </ScrollView>

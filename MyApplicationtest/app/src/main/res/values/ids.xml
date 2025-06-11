@@ -2,4 +2,5 @@
 <resources>
     <item name="checkbox_feminino" type="id">checkbox_feminino</item>
     <item name="spinner_tipo_sanguineo" type="id" />
+    <item name="etGeralCampo1" type="id" />
 </resources>

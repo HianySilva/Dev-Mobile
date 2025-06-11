@@ -13,13 +13,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Respiratório"
+            android:text="NEUROLÓGICO"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: TOSSE -->
+        <!-- Item: DOR DE CABEÇA -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,19 +29,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Tosse"
+                android:text="Dor de cabeça"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/rgTosse"
+                android:id="@+id/rgCabeça"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbTosseSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbTosseNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbCabeçaSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbCabeçaNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Falta de Ar -->
+        <!-- Item: CONFUSÃO MENTAL -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,19 +51,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Falta de ar"
+                android:text="Confusão mental"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/Falta"
+                android:id="@+id/Mental"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbFaltaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbFaltaNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbMetalSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbMentalNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Dor torácica ao respirar -->
+        <!-- Item: CONVULSÕES -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,19 +73,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Dor torácica ao respirar"
+                android:text="Convulsões"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/rgDorTorácica"
+                android:id="@+id/rgConvulsões"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbDorTorácicaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbDorTorácicaNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbConvulsõesSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbConvulsõesNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: Espirros -->
+        <!-- Item: DOR NEUROPÁTICA-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,19 +95,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Espirros"
+                android:text="Dor neuropática"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/Espirros"
+                android:id="@+id/neuropática"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbEspirrosSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbEspirrosNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbneuropáticaSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbneuropáticaNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: CORIZA-->
+        <!-- Item: PARESTESIA-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -117,17 +117,62 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Coriza"
+                android:text="Parestesia"
                 android:layout_height="wrap_content" />
             <RadioGroup
-                android:id="@+id/rgCoriza"
+                android:id="@+id/rgParestesia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbCorizaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbCorizaNao" android:text="Não" />
+                <RadioButton android:id="@+id/rbParestesiaSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbParestesiaNao" android:text="Não" />
             </RadioGroup>
         </LinearLayout>
+
+        <!-- Item: PARESIA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Paresia"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/rgParesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbParesiaSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbParesiaNao" android:text="Não" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Item: PLEGIA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Plegia"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/rgPlegia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbPlegiaSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbPlegiaNao" android:text="Não" />
+            </RadioGroup>
+        </LinearLayout>
+
 
         <!-- OBSERVAÇÕES -->
         <TextView
@@ -172,7 +217,7 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Geral"
+            android:text="Salvar / Neurologico"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:backgroundTint="#0971b2"/>/>
