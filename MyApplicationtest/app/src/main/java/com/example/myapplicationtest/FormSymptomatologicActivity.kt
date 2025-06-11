@@ -1,13 +1,9 @@
 package com.example.myapplicationtest
-
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 import android.widget.ImageButton
-import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import android.view.LayoutInflater
 
 class FormSymptomatologicActivity : AppCompatActivity() {
 
@@ -20,118 +16,39 @@ class FormSymptomatologicActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btnGeral).setOnClickListener {
-            showFormDialog(R.layout.activity_geral)
+            startActivity(Intent(this, GeralActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnRespiratorio).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_respiratorio)
+            startActivity(Intent(this, RespiratorioActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnInfecciosoInflamatorio).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_infeccioso)
+            startActivity(Intent(this, InfecciosoActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnCardiovascular).setOnClickListener {
-            showFormDialog(R.layout.activity_cardiovascular)
+            startActivity(Intent(this, CardiovascularActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnGastrointestinal).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_Gastrointestinal)
+            startActivity(Intent(this, GastrointestinalActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnNeurologico).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_Neurologico)
+            startActivity(Intent(this, NeurologicoActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnMusculoEsqueletico).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_Musculo)
+            startActivity(Intent(this, MusculoEsqueleticoActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnHematologico).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_Hematologico)
+            startActivity(Intent(this, HematologicoActivity::class.java))
         }
 
         findViewById<Button>(R.id.btnPsiquiatrico).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_Psiquiatrico)
+            startActivity(Intent(this, PsiquiatricoActivity::class.java))
         }
-    }
-
-    private fun showFormDialog(layoutResId: Int) {
-        val builder = AlertDialog.Builder(this)
-        val inflater = LayoutInflater.from(this)
-        val dialogView = inflater.inflate(layoutResId, null)
-        builder.setView(dialogView)
-
-        builder.setPositiveButton("Salvar") { dialog, _ ->
-            when (layoutResId) {
-                R.layout.activity_geral -> {
-                    val febre = dialogView.findViewById<EditText>(R.id.rgFebre)?.text.toString()
-                    val cansaco = dialogView.findViewById<EditText>(R.id.rgCansaco)?.text.toString()
-                    val sudorese = dialogView.findViewById<EditText>(R.id.rgSudorese)?.text.toString()
-                    val perdaPeso = dialogView.findViewById<EditText>(R.id.rgPerdaPeso)?.text.toString()
-                    val inchaco = dialogView.findViewById<EditText>(R.id.rgInchaco)?.text.toString()
-
-                    val mensagem = """
-                        Geral:
-                        Febre: $febre
-                        Cansaço: $cansaco
-                        Sudorese: $sudorese
-                        Perda de Peso: $perdaPeso
-                        Inchaço: $inchaco
-                    """.trimIndent()
-
-                    Toast.makeText(this, mensagem, Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.dialog_form_respiratorio -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.rg)?.text.toString()
-                    val campo2 = dialogView.findViewById<EditText>(R.id.etRespCampo2)?.text.toString()
-                    Toast.makeText(this, "Respiratório: $campo1, $campo2", Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.dialog_form_infeccioso -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etInfecciosoCampo1)?.text.toString()
-                    Toast.makeText(this, "Infeccioso/Inflamatório: $campo1", Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.activity_cardiovascular -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etCardioCampo1)?.text.toString()
-                    Toast.makeText(this, "Cardiovascular: $campo1", Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.dialog_form_Gastrointestinal -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etGastroCampo1)?.text.toString()
-                    Toast.makeText(this, "Gastrointestinal: $campo1", Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.dialog_form_Neurologico -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etNeuroCampo1)?.text.toString()
-                    Toast.makeText(this, "Neurológico: $campo1", Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.dialog_form_Musculo -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etMusculoCampo1)?.text.toString()
-                    Toast.makeText(this, "Musculoesquelético: $campo1", Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.dialog_form_Hematologico -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etHematoCampo1)?.text.toString()
-                    Toast.makeText(this, "Hematológico: $campo1", Toast.LENGTH_LONG).show()
-                }
-
-                R.layout.dialog_form_Psiquiatrico -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etPsiquiatricoCampo1)?.text.toString()
-                    Toast.makeText(this, "Psiquiátrico: $campo1", Toast.LENGTH_LONG).show()
-                }
-            }
-
-            dialog.dismiss()
-        }
-
-        builder.setNegativeButton("Cancelar") { dialog, _ ->
-            dialog.dismiss()
-        }
-
-        builder.create().show()
     }
 }

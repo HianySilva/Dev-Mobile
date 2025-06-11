@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_air.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_air.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_food.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_food.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_rounded_button.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_musculo.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_musculo.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_mental.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_mental.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_huocsystem.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/huocsystem.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_cardiovascular.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_cardiovascular.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_infeccioso.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_infeccioso.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_brain.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_brain.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_respiratorio.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_respiratorio.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_heart.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_heart.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_geral.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_geral.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_psiquiatrico.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_psiquiatrico.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_info.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_info.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_hematologico.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_hematologico.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_fragment_visualizar_paciente.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/fragment_visualizar_paciente.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_fragment_visualizar_paciente2.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/fragment_visualizar_paciente2.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_fragment_cadastro_paciente.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/fragment_cadastro_paciente.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_form_sintomatologia.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/form_sintomatologia.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_psicquiatrico.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_psicquiatrico.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_neurologico.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_neurologico.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_warning.png.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_warning.png"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_gastrointestinal.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_gastrointestinal.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_musculo_esqueletico.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_musculo_esqueletico.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.myapplicationtest.app-debug-32:/layout_activity_main2.xml.flat",
+        "source": "com.example.myapplicationtest.app-main-34:/layout/activity_main2.xml"
+    }
+]

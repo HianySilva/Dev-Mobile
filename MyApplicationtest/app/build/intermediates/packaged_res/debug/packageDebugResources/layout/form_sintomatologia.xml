@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- HEADER COM BOTÃO VOLTAR, LOGO E TÍTULO -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#1976D2"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/huocsystem"
+            android:contentDescription="Logo" />
+
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formulário: Sintomatologia Clínica"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginStart="12dp" />
+
+        <ImageButton
+            android:id="@+id/btnVoltar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Voltar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+    </LinearLayout>
+
+    <!-- CONTEÚDO SCROLLÁVEL -->
+    <ScrollView
+        android:layout_width="422dp"
+        android:layout_height="660dp">
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Botão Geral centralizado -->
+            <Button
+                android:id="@+id/btnGeral"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#D32F2F"
+                android:drawableLeft="@drawable/ic_info"
+                android:gravity="center"
+                android:text="Geral"
+                android:textColor="@android:color/white" />
+
+            <!-- GridLayout para botões em 2 colunas -->
+            <GridLayout
+                android:layout_width="401dp"
+                android:layout_height="319dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:paddingTop="10dp"
+                android:useDefaultMargins="true">
+
+                <Button
+                    android:id="@+id/btnRespiratorio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_air"
+                    android:gravity="center_vertical"
+                    android:text="Respiratório"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnInfecciosoInflamatorio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_warning"
+                    android:gravity="center_vertical"
+                    android:text="Infeccioso e Inflamatório"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnCardiovascular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_heart"
+                    android:gravity="center_vertical"
+                    android:text="Cardiovascular"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnGastrointestinal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_food"
+                    android:gravity="center_vertical"
+                    android:text="Gastrointestinal"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnNeurologico"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_brain"
+                    android:gravity="center_vertical"
+                    android:text="Neurológico"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnMusculoEsqueletico"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_musculo"
+                    android:gravity="center_vertical"
+                    android:text="Músculo-Esquelético"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnHematologico"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_mental"
+                    android:gravity="center_vertical"
+                    android:text="Hematológico"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnPsiquiatrico"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#D32F2F"
+                    android:drawableLeft="@drawable/ic_psicquiatrico"
+                    android:gravity="center_vertical"
+                    android:text="Psiquiátrico"
+                    android:textColor="@android:color/white" />
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

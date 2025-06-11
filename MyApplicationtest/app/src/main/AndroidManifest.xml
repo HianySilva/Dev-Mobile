@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplicationtest"
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
@@ -23,15 +24,17 @@
             </intent-filter>
         </activity>
 
-        <!-- Outras Activities -->
-        <activity
-            android:name=".GeralActivity"
-            android:exported="false" />
-
-        <!-- Nova Activity Cardiovascular -->
-        <activity
-            android:name=".CardiovascularActivity"
-            android:exported="false" />
+        <!-- Todas as outras Activities -->
+        <activity android:name=".FormSymptomatologicActivity" android:exported="false" />
+        <activity android:name=".GeralActivity" android:exported="false" />
+        <activity android:name=".CardiovascularActivity" android:exported="false" />
+        <activity android:name=".PsiquiatricoActivity" android:exported="false" />
+        <activity android:name=".RespiratorioActivity" android:exported="false" />
+        <activity android:name=".InfecciosoActivity" android:exported="false" />
+        <activity android:name=".GastrointestinalActivity" android:exported="false" />
+        <activity android:name=".NeurologicoActivity" android:exported="false" />
+        <activity android:name=".MusculoEsqueleticoActivity" android:exported="false" />
+        <activity android:name=".HematologicoActivity" android:exported="false" />
 
     </application>
 

@@ -1,0 +1,358 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c03289ebb0aa4e713e01fd928ba62669\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\90119ac06711cfb1213824de8af09730\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\0e5c491e13d7c57c8ccb4641ecd4b205\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\ae59a4f95663935217a59590be84d62f\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c035eb0fa7305d77cd521b6001ad560e\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2b62ec08d1e72df15c4e06170785357d\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cb6db8715502f93868a882c9449a1435\transformed\activity-1.10.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ead5f0166c0c84480e3059dd60a9210\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\04228a5051999c5bab253edb7bd5b965\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\d823738ced646d5f831bd22bbcb795ed\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\405eb1c980955256423785450f208c90\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\380cb3bbdfd690efdff4e39b6b8c0bd8\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4e0818faa41d11efa2bd078d61a10ef5\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cda4f58f0f6e681ba51e53de1d705f98\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\6044b9ac41501d9eaf2e01ffaa3b2e44\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\1ba659c72412ff6eb1209d85fc14c8b7\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\882807f1b0d000b2287c4a5faafad363\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\8d06fc1ed06b79aa1ac2b72340d3498d\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\62c1af624b62c5b55726afcb979202b1\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\14083ee118bfabccdaab6b34a65482ed\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cff72dfddb664c5d9fefaf2f153c46c5\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2e31def426cf608c6390a85ee6af3eca\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\de82ba335a161262b41e4a428786ccbf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2f903e3cc6ca173aaef25f42fdcee8dc\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\5b90b1bf370c76d7c784897020894b70\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\61ba4a6b5d4326af33710d95d54f1b0c\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\49cf655d7d93e503bea2e9b34b010e79\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\864bd38b0417015c965af0fa89db33ae\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\e3a1819bf66944817dd63e62f94ab487\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\32beb47f28c410bc1588a2b383d5e164\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\f6e4cf30cd5120aae9088198522bf433\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\59906bfc9f457b766733d5388825548c\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\1505c6af8e408ef8fd3cf9578e6a61b3\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\7a1a6187873f3b93cf8a25899fcef3ee\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cd69de442d01501dfc9bd8c16081f7f5\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\bba2547abed53858a832bfe0c22f68d7\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\236fef803cef3a6e909891c77b08cfa6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f5d0fb4f00486ea9eb162a701a6b94d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:6:5-39:19
+INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:6:5-39:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c03289ebb0aa4e713e01fd928ba62669\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c03289ebb0aa4e713e01fd928ba62669\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\90119ac06711cfb1213824de8af09730\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\90119ac06711cfb1213824de8af09730\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\f6e4cf30cd5120aae9088198522bf433\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\f6e4cf30cd5120aae9088198522bf433\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\7a1a6187873f3b93cf8a25899fcef3ee\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\7a1a6187873f3b93cf8a25899fcef3ee\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:9:9-54
+	android:roundIcon
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:14:9-55
+	android:dataExtractionRules
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:8:9-65
+activity#com.example.myapplicationtest.Main2Activity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:18:9-25:20
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:19:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.example.myapplicationtest.FormSymptomatologicActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:28:9-90
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:28:63-87
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:28:19-62
+activity#com.example.myapplicationtest.GeralActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:29:9-76
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:29:49-73
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:29:19-48
+activity#com.example.myapplicationtest.CardiovascularActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:30:9-85
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:30:58-82
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:30:19-57
+activity#com.example.myapplicationtest.PsiquiatricoActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:31:9-83
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:31:56-80
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:31:19-55
+activity#com.example.myapplicationtest.RespiratorioActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:32:9-83
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:32:56-80
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:32:19-55
+activity#com.example.myapplicationtest.InfecciosoActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:33:9-81
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:33:54-78
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:33:19-53
+activity#com.example.myapplicationtest.GastrointestinalActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:34:9-87
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:34:60-84
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:34:19-59
+activity#com.example.myapplicationtest.NeurologicoActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:35:9-82
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:35:55-79
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:35:19-54
+activity#com.example.myapplicationtest.MusculoEsqueleticoActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:36:9-89
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:36:62-86
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:36:19-61
+activity#com.example.myapplicationtest.HematologicoActivity
+ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:37:9-83
+	android:exported
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:37:56-80
+	android:name
+		ADDED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml:37:19-55
+uses-sdk
+INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c03289ebb0aa4e713e01fd928ba62669\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c03289ebb0aa4e713e01fd928ba62669\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\90119ac06711cfb1213824de8af09730\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\90119ac06711cfb1213824de8af09730\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\0e5c491e13d7c57c8ccb4641ecd4b205\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\0e5c491e13d7c57c8ccb4641ecd4b205\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\ae59a4f95663935217a59590be84d62f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\ae59a4f95663935217a59590be84d62f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c035eb0fa7305d77cd521b6001ad560e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\c035eb0fa7305d77cd521b6001ad560e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2b62ec08d1e72df15c4e06170785357d\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2b62ec08d1e72df15c4e06170785357d\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cb6db8715502f93868a882c9449a1435\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cb6db8715502f93868a882c9449a1435\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ead5f0166c0c84480e3059dd60a9210\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ead5f0166c0c84480e3059dd60a9210\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\04228a5051999c5bab253edb7bd5b965\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\04228a5051999c5bab253edb7bd5b965\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\d823738ced646d5f831bd22bbcb795ed\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\d823738ced646d5f831bd22bbcb795ed\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\405eb1c980955256423785450f208c90\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\405eb1c980955256423785450f208c90\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\380cb3bbdfd690efdff4e39b6b8c0bd8\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\380cb3bbdfd690efdff4e39b6b8c0bd8\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4e0818faa41d11efa2bd078d61a10ef5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4e0818faa41d11efa2bd078d61a10ef5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cda4f58f0f6e681ba51e53de1d705f98\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cda4f58f0f6e681ba51e53de1d705f98\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\6044b9ac41501d9eaf2e01ffaa3b2e44\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\6044b9ac41501d9eaf2e01ffaa3b2e44\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\1ba659c72412ff6eb1209d85fc14c8b7\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\1ba659c72412ff6eb1209d85fc14c8b7\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\882807f1b0d000b2287c4a5faafad363\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\882807f1b0d000b2287c4a5faafad363\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\8d06fc1ed06b79aa1ac2b72340d3498d\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\8d06fc1ed06b79aa1ac2b72340d3498d\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\62c1af624b62c5b55726afcb979202b1\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\62c1af624b62c5b55726afcb979202b1\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\14083ee118bfabccdaab6b34a65482ed\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\14083ee118bfabccdaab6b34a65482ed\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cff72dfddb664c5d9fefaf2f153c46c5\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cff72dfddb664c5d9fefaf2f153c46c5\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2e31def426cf608c6390a85ee6af3eca\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2e31def426cf608c6390a85ee6af3eca\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\de82ba335a161262b41e4a428786ccbf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\de82ba335a161262b41e4a428786ccbf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2f903e3cc6ca173aaef25f42fdcee8dc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\2f903e3cc6ca173aaef25f42fdcee8dc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\5b90b1bf370c76d7c784897020894b70\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\5b90b1bf370c76d7c784897020894b70\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\61ba4a6b5d4326af33710d95d54f1b0c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\61ba4a6b5d4326af33710d95d54f1b0c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\49cf655d7d93e503bea2e9b34b010e79\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\49cf655d7d93e503bea2e9b34b010e79\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\864bd38b0417015c965af0fa89db33ae\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\864bd38b0417015c965af0fa89db33ae\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\e3a1819bf66944817dd63e62f94ab487\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\e3a1819bf66944817dd63e62f94ab487\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\32beb47f28c410bc1588a2b383d5e164\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\32beb47f28c410bc1588a2b383d5e164\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\f6e4cf30cd5120aae9088198522bf433\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\f6e4cf30cd5120aae9088198522bf433\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\59906bfc9f457b766733d5388825548c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\59906bfc9f457b766733d5388825548c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\1505c6af8e408ef8fd3cf9578e6a61b3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\1505c6af8e408ef8fd3cf9578e6a61b3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\7a1a6187873f3b93cf8a25899fcef3ee\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\7a1a6187873f3b93cf8a25899fcef3ee\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cd69de442d01501dfc9bd8c16081f7f5\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\cd69de442d01501dfc9bd8c16081f7f5\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\bba2547abed53858a832bfe0c22f68d7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\bba2547abed53858a832bfe0c22f68d7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\236fef803cef3a6e909891c77b08cfa6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\236fef803cef3a6e909891c77b08cfa6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f5d0fb4f00486ea9eb162a701a6b94d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f5d0fb4f00486ea9eb162a701a6b94d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hiany\Downloads\Dev-Mobile\MyApplicationtest\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\f6e4cf30cd5120aae9088198522bf433\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hiany\.gradle\caches\8.11.1\transforms\f6e4cf30cd5120aae9088198522bf433\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4b61a3e47c398b2b46c193374ce610f7\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4ea32091bf1fd85317a169d97ff95747\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.myapplicationtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.myapplicationtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\4f4be890811ff68b8ca7ce0cc9728a5f\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hiany\.gradle\caches\8.11.1\transforms\3600faf4cdc24f6135c4bb991d357f77\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

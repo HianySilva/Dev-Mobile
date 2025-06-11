@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_sanguineos">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="checkbox_feminino" type="id">checkbox_feminino</item>
+    <item name="etGeralCampo1" type="id"/>
+    <item name="spinner_tipo_sanguineo" type="id"/>
+    <string name="app_name">My Application.test</string>
+    <string name="checkbox_feminino">Feminino</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="Base.Theme.MyApplicationtest" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyApplicationtest" parent="Base.Theme.MyApplicationtest"/>
+</resources>

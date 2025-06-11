@@ -1,6 +1,5 @@
 package com.example.myapplicationtest
 
-package com.seuapp.exemplo
 
 import android.os.Bundle
 import android.widget.Button
