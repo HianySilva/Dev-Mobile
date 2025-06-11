@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="20dp"
+        android:gravity="center_vertical">
 
         <!-- Título Centralizado -->
         <TextView
@@ -26,19 +27,18 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Dor de garganta"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgGarganta"
+
+            <Switch
+                android:id="@+id/switchGarganta"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbGargantaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbTGargantaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
         <!-- Item: LINFONODOS INCHADOS -->
@@ -48,41 +48,39 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Linfonodos inchados"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgLinfonodos"
+
+            <Switch
+                android:id="@+id/switchLinfonodos"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbLinfonodosSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbLinfonodosNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
-        <!-- Item:ERUPÇÃO CUTÂNEA -->
+        <!-- Item: ERUPÇÃO CUTÂNEA -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Erupção Cutânea"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgErupção"
+
+            <Switch
+                android:id="@+id/switchErupcao"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbErupçãoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbErupçãoNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
         <!-- Item: ÚLCERAS NA BOCA -->
@@ -92,21 +90,19 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Úlceras na boca"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Úlceras"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbÚlcerasSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbÚlcerasNao" android:text="Não" />
-            </RadioGroup>
-        </LinearLayout>
 
+            <Switch
+                android:id="@+id/switchUlceras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
 
         <!-- OBSERVAÇÕES -->
         <TextView
@@ -114,6 +110,7 @@
             android:layout_height="wrap_content"
             android:text="Observações Adicionais:" />
 
+        <!-- ANEXAR -->
         <EditText
             android:id="@+id/etObservacoes"
             android:layout_width="match_parent"
@@ -122,7 +119,6 @@
             android:gravity="top"
             android:hint="Digite aqui..." />
 
-        <!-- ANEXAR -->
         <LinearLayout
             android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
@@ -135,7 +131,6 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
-
 
             <TextView
                 android:id="@+id/tvAnexar"
@@ -154,6 +149,6 @@
             android:text="Salvar / Infeccioso"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>/>
+            android:backgroundTint="#0971b2" />
     </LinearLayout>
 </ScrollView>

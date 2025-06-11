@@ -8,7 +8,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.view.LayoutInflater
-import com.seuapp.R
 
 class FormSymptomatologicActivity : AppCompatActivity() {
 
@@ -21,30 +20,37 @@ class FormSymptomatologicActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btnGeral).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_geral)
+            showFormDialog(R.layout.activity_geral)
         }
 
         findViewById<Button>(R.id.btnRespiratorio).setOnClickListener {
             showFormDialog(R.layout.dialog_form_respiratorio)
         }
+
         findViewById<Button>(R.id.btnInfecciosoInflamatorio).setOnClickListener {
             showFormDialog(R.layout.dialog_form_infeccioso)
         }
+
         findViewById<Button>(R.id.btnCardiovascular).setOnClickListener {
-            showFormDialog(R.layout.dialog_form_cardiovascular)
+            showFormDialog(R.layout.activity_cardiovascular)
         }
+
         findViewById<Button>(R.id.btnGastrointestinal).setOnClickListener {
             showFormDialog(R.layout.dialog_form_Gastrointestinal)
         }
+
         findViewById<Button>(R.id.btnNeurologico).setOnClickListener {
             showFormDialog(R.layout.dialog_form_Neurologico)
         }
+
         findViewById<Button>(R.id.btnMusculoEsqueletico).setOnClickListener {
             showFormDialog(R.layout.dialog_form_Musculo)
         }
+
         findViewById<Button>(R.id.btnHematologico).setOnClickListener {
             showFormDialog(R.layout.dialog_form_Hematologico)
         }
+
         findViewById<Button>(R.id.btnPsiquiatrico).setOnClickListener {
             showFormDialog(R.layout.dialog_form_Psiquiatrico)
         }
@@ -57,21 +63,28 @@ class FormSymptomatologicActivity : AppCompatActivity() {
         builder.setView(dialogView)
 
         builder.setPositiveButton("Salvar") { dialog, _ ->
-
             when (layoutResId) {
-                R.layout.dialog_form_geral -> {
-                    // Exemplo: pegar campos do formulário geral
+                R.layout.activity_geral -> {
                     val febre = dialogView.findViewById<EditText>(R.id.rgFebre)?.text.toString()
                     val cansaco = dialogView.findViewById<EditText>(R.id.rgCansaco)?.text.toString()
                     val sudorese = dialogView.findViewById<EditText>(R.id.rgSudorese)?.text.toString()
-                    val PerdaPeso = dialogView.findViewById<EditText>(R.id.rgPerdaPeso)?.text.toString()
+                    val perdaPeso = dialogView.findViewById<EditText>(R.id.rgPerdaPeso)?.text.toString()
+                    val inchaco = dialogView.findViewById<EditText>(R.id.rgInchaco)?.text.toString()
 
-                    // ... pegue os outros campos que você criou
-                    Toast.makeText(this, "Geral: Febre=$febre, Cansaço=$cansaco", Toast.LENGTH_LONG).show()
+                    val mensagem = """
+                        Geral:
+                        Febre: $febre
+                        Cansaço: $cansaco
+                        Sudorese: $sudorese
+                        Perda de Peso: $perdaPeso
+                        Inchaço: $inchaco
+                    """.trimIndent()
+
+                    Toast.makeText(this, mensagem, Toast.LENGTH_LONG).show()
                 }
 
                 R.layout.dialog_form_respiratorio -> {
-                    val campo1 = dialogView.findViewById<EditText>(R.id.etRespCampo1)?.text.toString()
+                    val campo1 = dialogView.findViewById<EditText>(R.id.rg)?.text.toString()
                     val campo2 = dialogView.findViewById<EditText>(R.id.etRespCampo2)?.text.toString()
                     Toast.makeText(this, "Respiratório: $campo1, $campo2", Toast.LENGTH_LONG).show()
                 }
@@ -81,7 +94,7 @@ class FormSymptomatologicActivity : AppCompatActivity() {
                     Toast.makeText(this, "Infeccioso/Inflamatório: $campo1", Toast.LENGTH_LONG).show()
                 }
 
-                R.layout.dialog_form_cardiovascular -> {
+                R.layout.activity_cardiovascular -> {
                     val campo1 = dialogView.findViewById<EditText>(R.id.etCardioCampo1)?.text.toString()
                     Toast.makeText(this, "Cardiovascular: $campo1", Toast.LENGTH_LONG).show()
                 }

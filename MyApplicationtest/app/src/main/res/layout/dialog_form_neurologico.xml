@@ -26,19 +26,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Dor de cabeça"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgCabeça"
+
+            <Switch
+                android:id="@+id/switchCabeca"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbCabeçaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbCabeçaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <!-- Item: CONFUSÃO MENTAL -->
@@ -48,19 +46,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Confusão mental"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Mental"
+
+            <Switch
+                android:id="@+id/switchMental"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbMetalSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbMentalNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <!-- Item: CONVULSÕES -->
@@ -70,19 +66,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Convulsões"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgConvulsões"
+
+            <Switch
+                android:id="@+id/switchConvulsoes"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbConvulsõesSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbConvulsõesNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <!-- Item: DOR NEUROPÁTICA-->
@@ -92,19 +86,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Dor neuropática"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/neuropática"
+
+            <Switch
+                android:id="@+id/switchNeuropatica"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbneuropáticaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbneuropáticaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <!-- Item: PARESTESIA-->
@@ -114,19 +106,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Parestesia"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgParestesia"
+
+            <Switch
+                android:id="@+id/switchParestesia"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbParestesiaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbParestesiaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <!-- Item: PARESIA-->
@@ -136,19 +126,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Paresia"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgParesia"
+
+            <Switch
+                android:id="@+id/switchParesia"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbParesiaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbParesiaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <!-- Item: PLEGIA-->
@@ -158,21 +146,18 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Plegia"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgPlegia"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbPlegiaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbPlegiaNao" android:text="Não" />
-            </RadioGroup>
-        </LinearLayout>
 
+            <Switch
+                android:id="@+id/switchPlegia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
 
         <!-- OBSERVAÇÕES -->
         <TextView
@@ -202,7 +187,6 @@
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
 
-
             <TextView
                 android:id="@+id/tvAnexar"
                 android:layout_marginStart="8dp"
@@ -220,6 +204,6 @@
             android:text="Salvar / Neurologico"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>/>
+            android:backgroundTint="#0971b2" />
     </LinearLayout>
 </ScrollView>

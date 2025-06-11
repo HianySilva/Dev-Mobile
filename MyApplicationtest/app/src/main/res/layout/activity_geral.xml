@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">  <!-- use match_parent para preencher a tela -->
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="20dp"
-        android:gravity="center_vertical">  <!-- centraliza verticalmente -->
+        android:gravity="center_vertical">
 
-        <!-- Título Centralizado -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,7 +19,6 @@
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: FEBRE -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,10 +36,8 @@
                 android:id="@+id/switchFebre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
-
         </LinearLayout>
 
-        <!-- Item: CANSAÇO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,10 +55,8 @@
                 android:id="@+id/switchCansaco"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
-
         </LinearLayout>
 
-        <!-- Item: SUDORESE -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,10 +74,8 @@
                 android:id="@+id/switchSudorese"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
-
         </LinearLayout>
 
-        <!-- Item: PERDA DE PESO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -101,10 +93,8 @@
                 android:id="@+id/switchPerdaPeso"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
-
         </LinearLayout>
 
-        <!-- Item: INCHAÇO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -122,10 +112,8 @@
                 android:id="@+id/switchInchaco"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
-
         </LinearLayout>
 
-        <!-- OBSERVAÇÕES -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -139,7 +127,6 @@
             android:gravity="top"
             android:hint="Digite aqui..." />
 
-        <!-- ANEXAR -->
         <LinearLayout
             android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
@@ -162,7 +149,6 @@
                 android:textColor="#0000EE" />
         </LinearLayout>
 
-        <!-- BOTÃO SALVAR -->
         <Button
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"

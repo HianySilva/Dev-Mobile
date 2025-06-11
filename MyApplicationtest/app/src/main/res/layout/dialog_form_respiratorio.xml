@@ -19,7 +19,7 @@
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: TOSSE -->
+        <!-- Item: Tosse -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,17 +31,13 @@
                 android:layout_weight="1"
                 android:text="Tosse"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgTosse"
+            <Switch
+                android:id="@+id/swTosse"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbTosseSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbTosseNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Item: Falta de Ar -->
+        <!-- Falta de Ar -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,17 +49,13 @@
                 android:layout_weight="1"
                 android:text="Falta de ar"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Falta"
+            <Switch
+                android:id="@+id/swFaltaDeAr"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbFaltaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbFaltaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Item: Dor torácica ao respirar -->
+        <!-- Dor torácica ao respirar -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,17 +67,13 @@
                 android:layout_weight="1"
                 android:text="Dor torácica ao respirar"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgDorTorácica"
+            <Switch
+                android:id="@+id/swDorToracica"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbDorTorácicaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbDorTorácicaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Item: Espirros -->
+        <!-- Espirros -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -97,17 +85,13 @@
                 android:layout_weight="1"
                 android:text="Espirros"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Espirros"
+            <Switch
+                android:id="@+id/swEspirros"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbEspirrosSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbEspirrosNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Item: CORIZA-->
+        <!-- Coriza -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,14 +103,10 @@
                 android:layout_weight="1"
                 android:text="Coriza"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgCoriza"
+            <Switch
+                android:id="@+id/swCoriza"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbCorizaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbCorizaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <!-- OBSERVAÇÕES -->
@@ -157,7 +137,6 @@
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
 
-
             <TextView
                 android:id="@+id/tvAnexar"
                 android:layout_marginStart="8dp"
@@ -169,12 +148,13 @@
 
         <!-- BOTÃO SALVAR -->
         <Button
-            android:id="@+id/btnSalvarGeral"
+            android:id="@+id/btnSalvarRespiratorio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Salvar / Respiratório"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>/>
+            android:backgroundTint="#0971b2" />
+
     </LinearLayout>
 </ScrollView>

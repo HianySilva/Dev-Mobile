@@ -13,11 +13,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PSIQUIATRICO"
+            android:text="PSIQUIÁTRICO"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
-            android:paddingBottom="16dp" />
+            android:paddingBottom="16dp"/>
 
         <!-- Item: ANSIEDADE -->
         <LinearLayout
@@ -26,19 +26,18 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Ansiedade"
-                android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgAnsiedade"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/switchAnsiedade"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbAnsiedadeSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbAnsiedadeNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
         <!-- Item: DEPRESSÃO -->
@@ -48,41 +47,39 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Depressão"
-                android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Depressão"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/switchDepressao"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbDepressãoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbDepressãoNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
-        <!-- ALUCINAÇÕES -->
+        <!-- Item: ALUCINAÇÕES -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Alucinações"
-                android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgAlucinações"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/switchAlucinacoes"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbAlucinaçõesSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbAlucinaçõesNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
         <!-- Item: INSÔNIA -->
@@ -92,22 +89,19 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:text="Insônia"
-                android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Insônia"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/switchInsonia"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbInsôniaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbInsôniaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
+
         </LinearLayout>
-
-
 
         <!-- OBSERVAÇÕES -->
         <TextView
@@ -137,7 +131,6 @@
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
 
-
             <TextView
                 android:id="@+id/tvAnexar"
                 android:layout_marginStart="8dp"
@@ -152,9 +145,9 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Psiquiatrico"
+            android:text="Salvar / Psiquiátrico"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>/>
+            android:backgroundTint="#0971b2" />
     </LinearLayout>
 </ScrollView>
