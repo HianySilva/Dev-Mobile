@@ -13,120 +13,141 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CARDIOVASCULAR"
+            android:text="GASTROINTESTINAL"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: PALPITAÇÕES -->
+        <!-- Exemplo para NÁUSEA -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Palpitações"
+                android:text="Náusea"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgPalpitações"
+
+            <Switch
+                android:id="@+id/switchNauseaSim"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbPalpitaçõesSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbPalpitaçõesNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
+
         </LinearLayout>
 
-        <!-- Item: DOR NO PEITO -->
+        <!-- Exemplo para DIARREIA -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Dor no peito"
+                android:text="Diarreia"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/DorPeito"
+
+            <Switch
+                android:id="@+id/switchDiarreiaSim"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbDorPeitoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbDorPeitoNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
+
+
         </LinearLayout>
 
-        <!-- Item: TONTURA / DESMAIO -->
+        <!-- Prisão de ventre -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Tontura / Desmaio"
+                android:text="Prisão de ventre"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgTontura"
+
+            <Switch
+                android:id="@+id/switchPrisaoSim"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbTonturaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbTonturaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
+
+
         </LinearLayout>
 
-        <!-- Item: PRESSÃO ARTERIAL -->
+        <!-- Dor abdominal -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Pressão arterial elevada "
+                android:text="Dor abdominal"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/Pressão"
+
+            <Switch
+                android:id="@+id/switchDorAbdominalSim"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbPressãoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbPressãoNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
+
+
         </LinearLayout>
 
-        <!-- Item: EXTREMIDADES FRIAS-->
+        <!-- Perda de apetite -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Perda de apetite"
+                android:layout_height="wrap_content" />
+
+            <Switch
+                android:id="@+id/switchPerdaApetiteSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <!-- Constipação -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Extremidades frias"
+                android:text="Constipação"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgExtremidades"
+
+            <Switch
+                android:id="@+id/switchConstipacaoSim"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbExtremidadesSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbExtremidadesNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
+
+
         </LinearLayout>
 
         <!-- OBSERVAÇÕES -->
@@ -157,7 +178,6 @@
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
 
-
             <TextView
                 android:id="@+id/tvAnexar"
                 android:layout_marginStart="8dp"
@@ -172,9 +192,9 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Cardiovascular"
+            android:text="Salvar / Gastrointestinal"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>/>
+            android:backgroundTint="#0971b2" />
     </LinearLayout>
 </ScrollView>

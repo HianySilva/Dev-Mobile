@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">  <!-- use match_parent para preencher a tela -->
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="20dp"
+        android:gravity="center_vertical">  <!-- centraliza verticalmente -->
 
         <!-- Título Centralizado -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GASTROINTESTINAL"
+            android:text="GERAL"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Exemplo para NÁUSEA -->
+        <!-- Item: FEBRE -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,24 +31,17 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Náusea"
+                android:text="Febre"
                 android:layout_height="wrap_content" />
 
-            <CheckBox
-                android:id="@+id/cbNauseaSim"
+            <Switch
+                android:id="@+id/switchFebre"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sim" />
+                android:layout_height="wrap_content"/>
 
-            <CheckBox
-                android:id="@+id/cbNauseaNao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Não"
-                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Exemplo para DIARREIA -->
+        <!-- Item: CANSAÇO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,25 +52,17 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Diarreia"
+                android:text="Cansaço / Fadiga"
                 android:layout_height="wrap_content" />
 
-            <CheckBox
-                android:id="@+id/cbDiarreiaSim"
+            <Switch
+                android:id="@+id/switchCansaco"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sim" />
+                android:layout_height="wrap_content"/>
 
-            <CheckBox
-                android:id="@+id/cbDiarreiaNao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Não"
-                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Repita o mesmo padrão para os demais sintomas -->
-        <!-- Prisão de ventre -->
+        <!-- Item: SUDORESE -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,24 +73,17 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Prisão de ventre"
+                android:text="Sudorese excessiva"
                 android:layout_height="wrap_content" />
 
-            <CheckBox
-                android:id="@+id/cbPrisaoSim"
+            <Switch
+                android:id="@+id/switchSudorese"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sim" />
+                android:layout_height="wrap_content"/>
 
-            <CheckBox
-                android:id="@+id/cbPrisaoNao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Não"
-                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Dor abdominal -->
+        <!-- Item: PERDA DE PESO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -115,52 +94,17 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Dor abdominal"
+                android:text="Perda de peso inexplicada"
                 android:layout_height="wrap_content" />
 
-            <CheckBox
-                android:id="@+id/cbDorAbdominalSim"
+            <Switch
+                android:id="@+id/switchPerdaPeso"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sim" />
+                android:layout_height="wrap_content"/>
 
-            <CheckBox
-                android:id="@+id/cbDorAbdominalNao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Não"
-                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Perda de apetite -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginBottom="8dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="Perda de apetite"
-                android:layout_height="wrap_content" />
-
-            <CheckBox
-                android:id="@+id/cbPerdaApetiteSim"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sim" />
-
-            <CheckBox
-                android:id="@+id/cbPerdaApetiteNao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Não"
-                android:layout_marginStart="16dp" />
-        </LinearLayout>
-
-        <!-- Constipação -->
+        <!-- Item: INCHAÇO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -171,21 +115,14 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Constipação"
+                android:text="Inchaço (edema)"
                 android:layout_height="wrap_content" />
 
-            <CheckBox
-                android:id="@+id/cbConstipacaoSim"
+            <Switch
+                android:id="@+id/switchInchaco"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sim" />
+                android:layout_height="wrap_content"/>
 
-            <CheckBox
-                android:id="@+id/cbConstipacaoNao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Não"
-                android:layout_marginStart="16dp" />
         </LinearLayout>
 
         <!-- OBSERVAÇÕES -->
@@ -230,7 +167,7 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Gastrointestinal"
+            android:text="Salvar / Geral"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:backgroundTint="#0971b2" />

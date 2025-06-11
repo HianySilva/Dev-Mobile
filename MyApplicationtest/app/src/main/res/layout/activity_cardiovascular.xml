@@ -13,119 +13,159 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GERAL"
+            android:text="CARDIOVASCULAR"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: FEBRE -->
+        <!-- Item: PALPITAÇÕES -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Febre"
+                android:text="Palpitações"
                 android:layout_height="wrap_content" />
+
             <RadioGroup
-                android:id="@+id/rgFebre"
+                android:id="@+id/rgPalpitacoes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbFebreSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbFebreNao" android:text="Não" />
+
+                <RadioButton
+                    android:id="@+id/rbPalpitacoesSim"
+                    android:text="Sim" />
+
+                <RadioButton
+                    android:id="@+id/rbPalpitacoesNao"
+                    android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: CANSAÇO -->
+        <!-- Item: DOR NO PEITO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Cansaço / Fadiga"
+                android:text="Dor no peito"
                 android:layout_height="wrap_content" />
+
             <RadioGroup
-                android:id="@+id/rgCansaco"
+                android:id="@+id/rgDorPeito"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbCansacoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbCansacoNao" android:text="Não" />
+
+                <RadioButton
+                    android:id="@+id/rbDorPeitoSim"
+                    android:text="Sim" />
+
+                <RadioButton
+                    android:id="@+id/rbDorPeitoNao"
+                    android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: SUDORESE -->
+        <!-- Item: TONTURA / DESMAIO -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Sudorese excessiva"
+                android:text="Tontura / Desmaio"
                 android:layout_height="wrap_content" />
+
             <RadioGroup
-                android:id="@+id/rgSudorese"
+                android:id="@+id/rgTontura"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbSudoreseSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbSudoreseNao" android:text="Não" />
+
+                <RadioButton
+                    android:id="@+id/rbTonturaSim"
+                    android:text="Sim" />
+
+                <RadioButton
+                    android:id="@+id/rbTonturaNao"
+                    android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: PERDA DE PESO -->
+        <!-- Item: PRESSÃO ARTERIAL -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Perda de peso inexplicada"
+                android:text="Pressão arterial elevada"
                 android:layout_height="wrap_content" />
+
             <RadioGroup
-                android:id="@+id/rgPerdaPeso"
+                android:id="@+id/rgPressao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbPesoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbPesoNao" android:text="Não" />
+
+                <RadioButton
+                    android:id="@+id/rbPressaoSim"
+                    android:text="Sim" />
+
+                <RadioButton
+                    android:id="@+id/rbPressaoNao"
+                    android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
-        <!-- Item: INCHAÇO -->
+        <!-- Item: EXTREMIDADES FRIAS -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Inchaço (edema)"
+                android:text="Extremidades frias"
                 android:layout_height="wrap_content" />
+
             <RadioGroup
-                android:id="@+id/rgInchaco"
+                android:id="@+id/rgExtremidades"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbInchacoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbInchacoNao" android:text="Não" />
+
+                <RadioButton
+                    android:id="@+id/rbExtremidadesSim"
+                    android:text="Sim" />
+
+                <RadioButton
+                    android:id="@+id/rbExtremidadesNao"
+                    android:text="Não" />
             </RadioGroup>
         </LinearLayout>
 
@@ -157,7 +197,6 @@
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
 
-
             <TextView
                 android:id="@+id/tvAnexar"
                 android:layout_marginStart="8dp"
@@ -172,9 +211,9 @@
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Geral"
+            android:text="Salvar / Cardiovascular"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>
+            android:backgroundTint="#0971b2" />
     </LinearLayout>
 </ScrollView>

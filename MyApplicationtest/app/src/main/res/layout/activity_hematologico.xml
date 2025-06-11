@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -9,7 +9,7 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <!-- Título Centralizado -->
+        <!-- Título -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Item: SANGRAMENTO ANORMAIS -->
+        <!-- Sangramento anormais -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,17 +31,13 @@
                 android:layout_weight="1"
                 android:text="Sangramento anormais"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgSangramento"
+            <Switch
+                android:id="@+id/swSangramento"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbSangramentoSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbSangramentoNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Item: HEMATOMAS FÁCEIS -->
+        <!-- Hematomas fáceis -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,17 +49,13 @@
                 android:layout_weight="1"
                 android:text="Hematomas fáceis"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgHematomas"
+            <Switch
+                android:id="@+id/swHematomas"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbHematomasSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbHematomasNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Item: FRAQUEZA MUSCULAR -->
+        <!-- Fraqueza muscular -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,19 +65,15 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:text="Fraqueza Muscular"
+                android:text="Fraqueza muscular"
                 android:layout_height="wrap_content" />
-            <RadioGroup
-                android:id="@+id/rgFraqueza"
+            <Switch
+                android:id="@+id/swFraquezamuscular"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioButton android:id="@+id/rbFraquezaSim" android:text="Sim" />
-                <RadioButton android:id="@+id/rbFraquezaNao" android:text="Não" />
-            </RadioGroup>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- OBSERVAÇÕES -->
+        <!-- Observações -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -99,7 +87,7 @@
             android:gravity="top"
             android:hint="Digite aqui..." />
 
-        <!-- ANEXAR -->
+        <!-- Anexar exames -->
         <LinearLayout
             android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
@@ -113,7 +101,6 @@
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_upload" />
 
-
             <TextView
                 android:id="@+id/tvAnexar"
                 android:layout_marginStart="8dp"
@@ -123,14 +110,14 @@
                 android:textColor="#0000EE" />
         </LinearLayout>
 
-        <!-- BOTÃO SALVAR -->
+        <!-- Botão Salvar -->
         <Button
             android:id="@+id/btnSalvarGeral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar / Hematologico"
+            android:text="Salvar / Hematológico"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#0971b2"/>/>
+            android:backgroundTint="#0971b2" />
     </LinearLayout>
 </ScrollView>
