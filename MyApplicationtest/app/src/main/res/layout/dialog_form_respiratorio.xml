@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Título Centralizado -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GERAL"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Item: FEBRE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Febre"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/rgFebre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbFebreSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbFebreNao" android:text="Não" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Item: CANSAÇO -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Cansaço / Fadiga"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/rgCansaco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbCansacoSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbCansacoNao" android:text="Não" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Item: SUDORESE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Sudorese excessiva"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/rgSudorese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbSudoreseSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbSudoreseNao" android:text="Não" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Item: PERDA DE PESO -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Perda de peso inexplicada"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/rgPerdaPeso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbPesoSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbPesoNao" android:text="Não" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Item: INCHAÇO -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Inchaço (edema)"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/rgInchaco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbInchacoSim" android:text="Sim" />
+                <RadioButton android:id="@+id/rbInchacoNao" android:text="Não" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- OBSERVAÇÕES -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Observações Adicionais" />
+
+        <EditText
+            android:id="@+id/etObservacoes"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:gravity="top"
+            android:hint="Digite aqui..." />
+
+        <!-- ANEXAR -->
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivAnexar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_upload" />
+
+
+            <TextView
+                android:id="@+id/tvAnexar"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anexar exames/laboratoriais"
+                android:textColor="#0000EE" />
+        </LinearLayout>
+
+        <!-- BOTÃO SALVAR -->
+        <Button
+            android:id="@+id/btnSalvarGeral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar / Geral"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>
